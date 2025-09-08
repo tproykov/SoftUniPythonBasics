@@ -3,7 +3,7 @@ first_name = input()
 print('What is your last name?')
 last_name = input()
 print('What is your age?')
-age = input()
+age = int(input())
 print(f'Hello, {first_name} {last_name}! You are {age} years old!')
 
 # age_as_str = '20'
